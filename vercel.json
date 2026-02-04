@@ -1,12 +1,6 @@
 {
-  "buildCommand": "pip install -r requirements.txt",
-  "outputDirectory": ".",
-  "framework": "flask",
-  "functions": {
-    "api/chat.py": {"runtime": "python3.9" }
-  },
-  "routes": [
-    { "src": "/api/(.*)", "dest": "/api/chat.py" },
-    { "src": "/(.*)", "dest": "/templates/index.html" }
-  ]
+  "buildCommand": "pip install flask && pip install -r requirements.txt",
+  "outputDirectory": "public",
+  "framework": "python",
+  "installCommand": "pip install flask python-dotenv requests"
 }
