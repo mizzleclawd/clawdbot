@@ -1,5 +1,0 @@
-{
-  "buildCommand": "echo 'Static deployment'",
-  "outputDirectory": "public",
-  "framework": "static"
-}
