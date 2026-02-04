@@ -1,6 +1,5 @@
 {
-  "buildCommand": "pip install flask && pip install -r requirements.txt",
+  "buildCommand": "echo 'Static deployment'",
   "outputDirectory": "public",
-  "framework": "python",
-  "installCommand": "pip install flask python-dotenv requests"
+  "framework": "static"
 }
